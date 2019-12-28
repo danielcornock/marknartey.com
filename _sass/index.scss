@@ -1,0 +1,21 @@
+@import '_libs/reset';
+@import '_libs/variables';
+@import '_libs/generics';
+@import '_libs/components';
+@import '_modules';
+
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap');
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+}

@@ -1,0 +1,14 @@
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      {% for item in site.data.navigation %}
+      <a href="{{ item.link | absolute_url }}" class="nav-link">
+        <div class="nav-icon">
+          <i class="{{ item.icon }}"></i>
+        </div>
+        <span class="nav-link__text">{{ item.name}}</span>
+      </a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

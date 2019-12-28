@@ -1,0 +1,111 @@
+.pubsPreview {
+  &-container {
+    padding: $spacing-max 0;
+  }
+
+  &-subheading {
+    margin-bottom: 30px;
+  }
+
+  &-list {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &-card {
+    width: 100%;
+    border-top: 4px solid $color-primary--light;
+    // border-radius: 10px;
+    background-color: #fcfcfc;
+    padding: 20px;
+    @include flex(column);
+    align-items: flex-start;
+    box-shadow: 0 2px 16px rgba(black, 0.1);
+  }
+
+  &-title {
+    font-size: 22px;
+    color: $color-primary--dark;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  &-content {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  &-year {
+    font-size: 18px;
+    padding: 3px 9px;
+    background-color: $color-primary--light;
+    color: $color-primary;
+    border-radius: 5px;
+  }
+
+  &-location {
+    padding: 5px 10px;
+    background-color: #f6f6f6;
+    color: #777;
+    border-radius: 5px;
+    margin-top: auto;
+    font-size: 14px;
+  }
+
+  &-seeMore {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: $spacing-smaller;
+    color: $color-primary--dark;
+    text-decoration: none;
+    margin-left: auto;
+
+    &__icon {
+      @include center-contents;
+      font-size: 16px;
+      border-radius: $br-max;
+      height: 25px;
+      width: 25px;
+      background-color: $color-primary--light;
+    }
+
+    &__text {
+      font-size: 18px;
+      margin-right: 5px;
+      @include hover(0) {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &-nav {
+    @include flex();
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  &-navItem {
+    @include space-by(right, 10px);
+    @include button-reset();
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: $light;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-radius: $br-max;
+    background-color: $color-primary--light;
+    color: $color-primary--dark;
+
+    &.is-active {
+      background-color: $color-primary--dark;
+      color: white;
+    }
+
+    @include hover(250ms) {
+      background-color: $color-primary--dark;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.hero {
+  &-container {
+    @include flex(column);
+    align-items: center;
+    padding: 100px 0;
+  }
+
+  &-title {
+    color: $color-primary;
+    text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+    letter-spacing: 6px;
+    font-size: 60px;
+    font-family: 'Arvo', serif;
+    margin-bottom: 15px;
+  }
+
+  &-subtitle {
+    color: #777;
+    font-size: 17px;
+    letter-spacing: 3px;
+  }
+}

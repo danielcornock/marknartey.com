@@ -1,0 +1,42 @@
+.nav {
+  $cmp: &;
+
+  @include flex;
+  justify-content: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+
+  &-link {
+    @include flex;
+    align-items: center;
+    color: #777;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 17px;
+    margin-bottom: 20px;
+
+    @include hover($t250) {
+      color: $color-primary;
+
+      #{$cmp}-icon {
+        transform: scale(1.1);
+      }
+    }
+
+    &__text {
+      letter-spacing: 3px;
+    }
+  }
+
+  &-icon {
+    transition: $t250;
+    background-color: $color-primary--light;
+    color: $color-primary;
+    border-radius: $br-max;
+    @include center-contents;
+    height: 37px;
+    width: 37px;
+    // color: white;
+    margin-right: 10px;
+  }
+}

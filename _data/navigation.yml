@@ -1,0 +1,15 @@
+- name: About Me
+  link: /
+  icon: fas fa-user-alt
+- name: Publications
+  link: /publications
+  icon: fas fa-book
+- name: Conferences
+  link: /conferences
+  icon: fas fa-microphone
+- name: Accolades
+  link: /accolades
+  icon: fas fa-award
+- name: Esteem Measures
+  link: /esteem-measures
+  icon: fas fa-ruler
