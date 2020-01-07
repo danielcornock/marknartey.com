@@ -178,7 +178,7 @@
 .about-img {
   width: 350px;
   height: 320px;
-  background-color: white;
+  background-color: #f7f8fd;
   margin: auto;
   float: right;
   display: -webkit-box;
@@ -190,26 +190,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
 }
 
 .about-img > img {
   height: 320px;
   width: 320px;
-  border-radius: 9999px;
   position: relative;
   z-index: 1;
-}
-
-.about-img::after {
-  content: '';
-  position: absolute;
-  border-radius: 9999px;
-  top: -5px;
-  right: -5px;
-  height: 320px;
-  width: 320px;
-  border: 3px solid #e3f1fc;
 }
 
 .pubsPreview-container {
@@ -220,17 +207,24 @@
   margin-bottom: 30px;
 }
 
+.pubsPreview-frontPageList {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
 .pubsPreview-list {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
   grid-gap: 30px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
 }
 
 .pubsPreview-card {
   width: 100%;
-  border-top: 4px solid #e3f1fc;
   background-color: #fcfcfc;
   padding: 20px;
   display: -webkit-box;
@@ -245,27 +239,28 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #e3f1fc;
 }
 
 .pubsPreview-title {
-  font-size: 22px;
   color: #1574bb;
+  font-size: 19px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .pubsPreview-content {
   color: #666;
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .pubsPreview-year {
-  font-size: 18px;
-  padding: 3px 9px;
+  font-size: 16px;
+  padding: 2px 9px;
+  border-radius: 5px;
   background-color: #e3f1fc;
   color: #359be8;
-  border-radius: 5px;
 }
 
 .pubsPreview-location {
@@ -274,7 +269,7 @@
   color: #777;
   border-radius: 5px;
   margin-top: auto;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .pubsPreview-seeMore {
@@ -284,7 +279,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: 20px;
+  margin-top: 25px;
   color: #1574bb;
   text-decoration: none;
   margin-left: auto;
@@ -316,7 +311,7 @@
   text-decoration: underline;
 }
 
-.pubsPreview-nav {
+.publications-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,7 +325,7 @@
   margin-bottom: 30px;
 }
 
-.pubsPreview-navItem {
+.publications-navItem {
   margin-right: 10px;
   padding: 0;
   border: none;
@@ -348,18 +343,218 @@
   transition: 250ms;
 }
 
-.pubsPreview-navItem:nth-last-child(1) {
+.publications-navItem:nth-last-child(1) {
   margin-right: 0px;
 }
 
-.pubsPreview-navItem.is-active {
+.publications-navItem.is-active {
   background-color: #1574bb;
   color: white;
 }
 
-.pubsPreview-navItem:hover {
+.publications-navItem:hover {
   background-color: #1574bb;
   color: white;
+}
+
+.conference-card {
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #e3f1fc;
+}
+
+.conference-authors {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1574bb;
+}
+
+.conference-year {
+  font-size: 16px;
+  padding: 2px 9px;
+  border-radius: 5px;
+  background-color: #e3f1fc;
+  color: #359be8;
+}
+
+.conference-content {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+.conference-prefix {
+  color: #e87335;
+}
+
+.conference-conference {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.conference-footer {
+  padding: 5px 10px;
+  background-color: #f6f6f6;
+  color: #777;
+  border-radius: 5px;
+  margin-top: auto;
+  font-size: 15px;
+}
+
+.conferences-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+}
+
+.conferencesPreview-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.scholarship-card {
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #e3f1fc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scholarship-title {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1574bb;
+  margin-bottom: 15px;
+}
+
+.scholarship-year {
+  font-size: 16px;
+  padding: 2px 9px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #359be8;
+  background-color: #e3f1fc;
+}
+
+.scholarship-icon {
+  color: #359be8;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.scholarships {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  grid-gap: 15px;
+}
+
+.accolades-subheading {
+  margin-top: 25px;
+}
+
+.awards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  grid-gap: 15px;
+}
+
+.award-card {
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #e3f1fc;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.award-title {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1574bb;
+}
+
+.award-presenter {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #e87335;
+}
+
+.award-year {
+  font-size: 16px;
+  padding: 2px 9px;
+  border-radius: 5px;
+  color: #359be8;
+  background-color: #e3f1fc;
+  font-weight: 600;
+}
+
+.award-icon {
+  color: #359be8;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 html {
@@ -368,6 +563,7 @@ html {
 
 body {
   overflow-x: hidden;
+  background-color: #f7f8fd;
 }
 
 .container {

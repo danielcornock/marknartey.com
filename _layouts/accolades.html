@@ -1,3 +1,18 @@
 ---
 layout: default
 ---
+
+<div class="accolades">
+  <div class="container section">
+    <h2 class="subheading accolades-subheading">Scholarships & Fellowships</h2>
+
+    <div class="scholarships section">
+      {% for scholarship in site.data.scholarships %} {% include scholarship.html %} {% endfor %}
+    </div>
+
+    <h2 class="subheading accolades-subheading">Awards</h2>
+    <div class="awards section">
+      {% for award in site.data.awards %} {% include award.html %} {% endfor %}
+    </div>
+  </div>
+</div>

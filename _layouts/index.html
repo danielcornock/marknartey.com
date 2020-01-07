@@ -56,18 +56,35 @@ layout: default
   <div class="pubsPreview">
     <div class="container">
       <div class="pubsPreview-container">
-          <h2 class="subheading pubsPreview-subheading">My Recent Publications</h2>
-          <div class="pubsPreview-list">
+          <h2 class="subheading pubsPreview-subheading">Recent Publications</h2>
+          <div class="pubsPreview-frontPageList">
             {% for pub in site.data.publications limit: 3 %}
-            <div class="pubsPreview-card">
-              <h3 class="pubsPreview-title">{{ pub.authors }} <span class="pubsPreview-year">{{ pub.year }}</span> </h3>
-              <p class="pubsPreview-content">{{ pub.content}}</p>
-              <div class="pubsPreview-location"><i>{{ pub.location}}</i>, {{ pub.chapter }}</div>
-            </div>
+            {% include publication.html %}
             {% endfor %}
           </div>
           <a href="/publications" class="pubsPreview-seeMore">
             <span class="pubsPreview-seeMore__text">See more publications</span>
+            <div class="pubsPreview-seeMore__icon"><i class="fas fa-arrow-right"></i></div>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section-divider"></div>
+  </div>
+  
+  <div class="pubsPreview">
+    <div class="container">
+      <div class="pubsPreview-container">
+          <h2 class="subheading pubsPreview-subheading">Recent Conferences</h2>
+          <div class="conferencesPreview-list">
+            {% for conf in site.data.conferences limit: 2 %}
+            {% include conference.html %}
+            {% endfor %}
+          </div>
+          <a href="/conferences" class="pubsPreview-seeMore">
+            <span class="pubsPreview-seeMore__text">See more conferences</span>
             <div class="pubsPreview-seeMore__icon"><i class="fas fa-arrow-right"></i></div>
           </a>
       </div>

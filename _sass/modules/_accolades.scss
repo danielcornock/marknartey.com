@@ -1,0 +1,77 @@
+.scholarship {
+  &-card {
+    @include card($color-primary--light);
+    text-align: center;
+    @include flex(column);
+    align-items: center;
+  }
+
+  &-title {
+    @include card-title;
+    color: $color-primary--dark;
+    margin-bottom: 15px;
+  }
+
+  &-year {
+    @include card-year;
+    font-weight: 600;
+    color: $color-primary;
+    background-color: $color-primary--light;
+    // margin-top: auto;
+  }
+
+  &-icon {
+    color: $color-primary;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.scholarships {
+  @include grid(4);
+  grid-gap: 15px;
+}
+
+.accolades {
+  &-subheading {
+    // text-align: center;
+    margin-top: 25px;
+  }
+}
+
+.awards {
+  @include grid(3);
+  grid-gap: 15px;
+}
+.award {
+  &-card {
+    @include card($color-primary--light);
+    @include flex(column);
+    align-items: center;
+    text-align: center;
+  }
+
+  &-title {
+    @include card-title;
+    color: $color-primary--dark;
+  }
+
+  &-presenter {
+    @include card-content;
+    color: $color-compliment;
+  }
+
+  &-year {
+    @include card-year;
+    color: $color-primary;
+    background-color: $color-primary--light;
+    font-weight: 600;
+    // margin-top: auto;
+  }
+
+  &-icon {
+    color: $color-primary;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}

@@ -4,51 +4,27 @@ layout: default
 
 <div class="publications">
   <div class="container section">
-    <div class="pubsPreview-nav">
-      <button class="pubsPreview-navItem is-active" id="journal">Journal Articles</button>
-      <button class="pubsPreview-navItem" id="chapter">Book Chapters</button>
-      <button class="pubsPreview-navItem" id="bookReview">Book Reviews</button>
-      <button class="pubsPreview-navItem" id="underReview">Under Review</button>
+    <div class="publications-nav">
+      <button class="publications-navItem is-active" id="journal">Journal Articles</button>
+      <button class="publications-navItem" id="chapter">Book Chapters</button>
+      <button class="publications-navItem" id="bookReview">Book Reviews</button>
+      <button class="publications-navItem" id="underReview">Under Review</button>
     </div>
 
     <div class="pubsPreview-list" id="journal-list">
-      {% for pub in site.data.publications %}
-      <div class="pubsPreview-card">
-        <h3 class="pubsPreview-title">{{ pub.authors }} <span class="pubsPreview-year">{{ pub.year }}</span></h3>
-        <p class="pubsPreview-content">{{ pub.content}}</p>
-        <div class="pubsPreview-location"><i>{{ pub.location}}</i>, {{ pub.chapter }}</div>
-      </div>
-      {% endfor %}
+      {% for pub in site.data.publications %} {% include publication.html %} {% endfor %}
     </div>
 
     <div class="pubsPreview-list hidden" id="chapter-list">
-      {% for chap in site.data.chapters %}
-      <div class="pubsPreview-card">
-        <h3 class="pubsPreview-title">{{ chap.authors }} <span class="pubsPreview-year">{{ chap.year }}</span></h3>
-        <p class="pubsPreview-content">{{ chap.content}}</p>
-        <div class="pubsPreview-location"><i>{{ chap.book}}</i>, {{ chap.chapter }}</div>
-      </div>
-      {% endfor %}
+      {% for book in site.data.chapters %} {% include book.html %} {% endfor %}
     </div>
 
     <div class="pubsPreview-list hidden" id="bookReview-list">
-      {% for bookReview in site.data.book-reviews %}
-      <div class="pubsPreview-card">
-        <h3 class="pubsPreview-title">{{ bookReview.authors }} <span class="pubsPreview-year">{{ bookReview.year }}</span></h3>
-        <p class="pubsPreview-content">{{ bookReview.content}}</p>
-        <div class="pubsPreview-location"><i>{{ bookReview.book}}</i>, {{ bookReview.chapter }}</div>
-      </div>
-      {% endfor %}
+      {% for book in site.data.book-reviews %} {% include book.html %} {% endfor %}
     </div>
 
     <div class="pubsPreview-list hidden" id="underReview-list">
-      {% for underReview in site.data.under-review %}
-      <div class="pubsPreview-card">
-        <h3 class="pubsPreview-title">{{ underReview.authors }}</h3>
-        <p class="pubsPreview-content">{{ underReview.content}}</p>
-        <div class="pubsPreview-location"><i>{{ underReview.location}}</i></div>
-      </div>
-      {% endfor %}
+      {% for pub in site.data.under-review %} {% include publication.html %} {% endfor %}
     </div>
   </div>
 </div>

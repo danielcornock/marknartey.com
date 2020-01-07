@@ -1,6 +1,5 @@
 ---
 layout: conferences
-title: Conference
-subtitle: View my visited conferences
+title: Conferences
 permalink: '/conferences/'
 ---

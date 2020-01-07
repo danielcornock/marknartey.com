@@ -1,0 +1,45 @@
+.conference {
+  &-card {
+    @include card($color-primary--light);
+  }
+
+  &-authors {
+    @include card-title;
+    color: $color-primary--dark;
+  }
+
+  &-year {
+    @include card-year;
+    background-color: $color-primary--light;
+    color: $color-primary;
+  }
+
+  &-content {
+    @include card-content;
+    margin-bottom: 5px;
+  }
+
+  &-prefix {
+    color: $color-compliment;
+  }
+
+  &-conference {
+    @include card-content;
+  }
+
+  &-footer {
+    @include card-footer;
+  }
+}
+
+.conferences {
+  &-list {
+    @include grid(1);
+  }
+}
+
+.conferencesPreview {
+  &-list {
+    @include grid(2);
+  }
+}

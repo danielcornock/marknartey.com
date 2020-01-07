@@ -13,7 +13,9 @@ $color-bg-danger: $light-red;
 $color-bg-success: $light-green;
 $color-bg-warning: $light-yellow;
 
-$color-compliment: #ed786a;
+$color-compliment: #e87335;
+$color-compliment--dark: darken($color-compliment, 15%);
+$color-compliment--light: lighten($color-compliment, 40%);
 $color-primary: #359be8;
 $color-primary--light: lighten($color-primary, 38%);
 $color-primary--dark: darken($color-primary, 15%);

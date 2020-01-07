@@ -7,57 +7,41 @@
     margin-bottom: 30px;
   }
 
+  &-frontPageList {
+    @include grid(3);
+  }
+
   &-list {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
+    @include grid(1);
   }
 
   &-card {
-    width: 100%;
-    border-top: 4px solid $color-primary--light;
-    // border-radius: 10px;
-    background-color: #fcfcfc;
-    padding: 20px;
-    @include flex(column);
-    align-items: flex-start;
-    box-shadow: 0 2px 16px rgba(black, 0.1);
+    @include card($color-primary--light);
   }
 
   &-title {
-    font-size: 22px;
     color: $color-primary--dark;
-    font-weight: 600;
-    margin-bottom: 15px;
+    @include card-title;
   }
 
   &-content {
-    color: #666;
-    font-size: 16px;
-    margin-bottom: 20px;
+    @include card-content;
   }
 
   &-year {
-    font-size: 18px;
-    padding: 3px 9px;
+    @include card-year;
     background-color: $color-primary--light;
     color: $color-primary;
-    border-radius: 5px;
   }
 
   &-location {
-    padding: 5px 10px;
-    background-color: #f6f6f6;
-    color: #777;
-    border-radius: 5px;
-    margin-top: auto;
-    font-size: 14px;
+    @include card-footer;
   }
 
   &-seeMore {
     display: flex;
     justify-content: flex-end;
-    margin-top: $spacing-smaller;
+    margin-top: $spacing-small;
     color: $color-primary--dark;
     text-decoration: none;
     margin-left: auto;
@@ -79,7 +63,9 @@
       }
     }
   }
+}
 
+.publications {
   &-nav {
     @include flex();
     justify-content: center;

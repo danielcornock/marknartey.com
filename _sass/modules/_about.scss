@@ -41,7 +41,7 @@
   &-img {
     width: 350px;
     height: 320px;
-    background-color: white;
+    background-color: rgb(247, 248, 253);
     // border-radius: $br-max;
     // box-shadow: inset 0px 0px 6px black;
     margin: auto;
@@ -56,18 +56,9 @@
     & > img {
       height: 320px;
       width: 320px;
-      border-radius: $br-max;
+      // border-radius: $br-max;
       position: relative;
       z-index: 1;
-    }
-
-    @include pseudo(after) {
-      border-radius: $br-max;
-      top: -5px;
-      right: -5px;
-      height: 320px;
-      width: 320px;
-      border: 3px solid $color-primary--light;
     }
 
     // @include pseudo(after) {
