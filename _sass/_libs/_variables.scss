@@ -12,13 +12,14 @@ $color-bg-danger: $light-red;
 $color-bg-danger: $light-red;
 $color-bg-success: $light-green;
 $color-bg-warning: $light-yellow;
-
-$color-compliment: #e87335;
+// #e33900
+// #359be8
+$color-compliment: #359be8;
 $color-compliment--dark: darken($color-compliment, 15%);
 $color-compliment--light: lighten($color-compliment, 40%);
-$color-primary: #359be8;
+$color-primary: #de5a2f;
 $color-primary--light: lighten($color-primary, 38%);
-$color-primary--dark: darken($color-primary, 15%);
+$color-primary--dark: #de5a2f;
 
 //* Margin/Padding
 $spacing-max: 80px;

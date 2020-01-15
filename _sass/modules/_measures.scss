@@ -1,0 +1,29 @@
+.measure {
+  &-card {
+    @include card($color-primary--light);
+    @include space-by(down, 30px);
+    @include flex(column);
+    align-items: center;
+  }
+
+  &-title {
+    @include card-title;
+    color: $color-primary;
+  }
+
+  &-year {
+    @include card-year;
+    color: $color-primary;
+    background-color: $color-primary--light;
+    margin-bottom: 10px;
+  }
+
+  &-employer {
+    @include card-footer;
+  }
+}
+
+.measures {
+  &-list {
+  }
+}

@@ -14,8 +14,8 @@
 }
 
 .section-divider.primary {
-  border-bottom: 3px solid #91c8f2;
-  border-top: 3px solid #91c8f2;
+  border-bottom: 3px solid #eca087;
+  border-top: 3px solid #eca087;
 }
 
 .section-divider.single {
@@ -47,7 +47,7 @@
 
 .subheading {
   font-family: 'Arvo', serif;
-  color: #359be8;
+  color: #de5a2f;
   text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
   font-size: 30px;
   margin-bottom: 10px;
@@ -60,6 +60,10 @@
 
 .hidden {
   display: none !important;
+}
+
+.text-link {
+  color: #359be8;
 }
 
 .hero-container {
@@ -77,12 +81,13 @@
 }
 
 .hero-title {
-  color: #359be8;
+  color: #de5a2f;
   text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-  letter-spacing: 6px;
+  letter-spacing: 10px;
   font-size: 60px;
   font-family: 'Arvo', serif;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .hero-subtitle {
@@ -120,15 +125,16 @@
           align-items: center;
   color: #777;
   text-decoration: none;
-  padding: 0 30px;
+  padding: 0 20px;
   font-size: 17px;
   margin-bottom: 20px;
+  text-transform: uppercase;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 .nav-link:hover {
-  color: #359be8;
+  color: #de5a2f;
 }
 
 .nav-link:hover .nav-icon {
@@ -143,8 +149,8 @@
 .nav-icon {
   -webkit-transition: 250ms;
   transition: 250ms;
-  background-color: #e3f1fc;
-  color: #359be8;
+  background-color: #f9dfd6;
+  color: #de5a2f;
   border-radius: 9999px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,11 +245,11 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #e3f1fc;
+  border-top: 4px solid #f9dfd6;
 }
 
 .pubsPreview-title {
-  color: #1574bb;
+  color: #de5a2f;
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -259,8 +265,8 @@
   font-size: 16px;
   padding: 2px 9px;
   border-radius: 5px;
-  background-color: #e3f1fc;
-  color: #359be8;
+  background-color: #f9dfd6;
+  color: #de5a2f;
 }
 
 .pubsPreview-location {
@@ -280,7 +286,7 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: 25px;
-  color: #1574bb;
+  color: #de5a2f;
   text-decoration: none;
   margin-left: auto;
 }
@@ -299,7 +305,7 @@
   border-radius: 9999px;
   height: 25px;
   width: 25px;
-  background-color: #e3f1fc;
+  background-color: #f9dfd6;
 }
 
 .pubsPreview-seeMore__text {
@@ -337,8 +343,8 @@
   letter-spacing: 2px;
   font-size: 15px;
   border-radius: 9999px;
-  background-color: #e3f1fc;
-  color: #1574bb;
+  background-color: #f9dfd6;
+  color: #de5a2f;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -348,12 +354,12 @@
 }
 
 .publications-navItem.is-active {
-  background-color: #1574bb;
+  background-color: #de5a2f;
   color: white;
 }
 
 .publications-navItem:hover {
-  background-color: #1574bb;
+  background-color: #de5a2f;
   color: white;
 }
 
@@ -373,22 +379,22 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #e3f1fc;
+  border-top: 4px solid #f9dfd6;
 }
 
 .conference-authors {
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #1574bb;
+  color: #de5a2f;
 }
 
 .conference-year {
   font-size: 16px;
   padding: 2px 9px;
   border-radius: 5px;
-  background-color: #e3f1fc;
-  color: #359be8;
+  background-color: #f9dfd6;
+  color: #de5a2f;
 }
 
 .conference-content {
@@ -399,7 +405,7 @@
 }
 
 .conference-prefix {
-  color: #e87335;
+  color: #359be8;
 }
 
 .conference-conference {
@@ -449,20 +455,21 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #e3f1fc;
+  border-top: 4px solid #f9dfd6;
   text-align: center;
   display: flex;
   flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 30px;
 }
 
 .scholarship-title {
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #1574bb;
+  color: #de5a2f;
   margin-bottom: 15px;
 }
 
@@ -471,36 +478,18 @@
   padding: 2px 9px;
   border-radius: 5px;
   font-weight: 600;
-  color: #359be8;
-  background-color: #e3f1fc;
+  color: #de5a2f;
+  background-color: #f9dfd6;
 }
 
 .scholarship-icon {
-  color: #359be8;
+  color: #de5a2f;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-.scholarships {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
-  grid-gap: 15px;
-}
-
 .accolades-subheading {
   margin-top: 25px;
-}
-
-.awards {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-  grid-gap: 15px;
 }
 
 .award-card {
@@ -519,47 +508,103 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #e3f1fc;
+  border-top: 4px solid #f9dfd6;
   display: flex;
   flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .award-title {
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #1574bb;
+  color: #de5a2f;
 }
 
 .award-presenter {
   color: #666;
   font-size: 18px;
   margin-bottom: 15px;
-  color: #e87335;
+  color: #359be8;
 }
 
 .award-year {
   font-size: 16px;
   padding: 2px 9px;
   border-radius: 5px;
-  color: #359be8;
-  background-color: #e3f1fc;
+  color: #de5a2f;
+  background-color: #f9dfd6;
   font-weight: 600;
 }
 
 .award-icon {
-  color: #359be8;
+  color: #de5a2f;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
+.measure-card {
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #f9dfd6;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.measure-card:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.measure-title {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #de5a2f;
+}
+
+.measure-year {
+  font-size: 16px;
+  padding: 2px 9px;
+  border-radius: 5px;
+  color: #de5a2f;
+  background-color: #f9dfd6;
+  margin-bottom: 10px;
+}
+
+.measure-employer {
+  padding: 5px 10px;
+  background-color: #f6f6f6;
+  color: #777;
+  border-radius: 5px;
+  margin-top: auto;
+  font-size: 15px;
+}
+
 .footer {
-  background-color: #e3f1fc;
-  border-top: 2px solid #359be8;
+  background-color: #f9dfd6;
+  border-top: 2px solid #de5a2f;
+  margin-top: auto;
 }
 
 .footer-container {
@@ -577,7 +622,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #1574bb;
+  color: #de5a2f;
 }
 
 .footer-details {
@@ -595,11 +640,20 @@ html {
 body {
   overflow-x: hidden;
   background-color: #f7f8fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
   max-width: 1200px;
   padding-left: 30px;
   padding-right: 30px;
-  margin: auto;
+  margin: 0 auto;
+  width: 100%;
 }

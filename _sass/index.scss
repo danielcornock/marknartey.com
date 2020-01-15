@@ -13,10 +13,13 @@ html {
 body {
   overflow-x: hidden;
   background-color: rgb(247, 248, 253);
+  @include flex(column);
+  min-height: 100vh;
 }
 .container {
   max-width: 1200px;
   padding-left: 30px;
   padding-right: 30px;
-  margin: auto;
+  margin: 0 auto;
+  width: 100%;
 }
