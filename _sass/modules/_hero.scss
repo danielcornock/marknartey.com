@@ -7,11 +7,12 @@
 
   &-title {
     color: $color-primary;
-    text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-    letter-spacing: 10px;
+    // text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+    letter-spacing: 20px;
     font-size: 60px;
-    font-family: 'Arvo', serif;
+    // font-family: 'Arvo', serif;
     margin-bottom: 15px;
+    font-weight: 300;
     text-transform: uppercase;
   }
 

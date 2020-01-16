@@ -32,11 +32,14 @@
 }
 
 .subheading {
-  font-family: 'Arvo', serif;
+  // font-family: 'Arvo', serif;
   color: $color-primary;
-  text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+  // text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
   font-size: 30px;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 5px;
 }
 
 .section {
