@@ -69,7 +69,8 @@
   &-nav {
     @include flex();
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
   }
 
   &-navItem {
@@ -85,12 +86,12 @@
     color: $color-primary--dark;
 
     &.is-active {
-      background-color: $color-primary--dark;
+      background-color: $color-compliment--dark;
       color: white;
     }
 
     @include hover(250ms) {
-      background-color: $color-primary--dark;
+      background-color: $color-compliment--dark;
       color: white;
     }
   }

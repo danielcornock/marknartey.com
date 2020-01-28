@@ -5,31 +5,35 @@ layout: default
 <div class="publications">
   <div class="container section">
     <div class="publications-nav">
-      <button class="publications-navItem is-active" id="journal">Journal Articles</button>
+      <button class="publications-navItem is-active" id="books">Books/Edited Work</button>
+      <button class="publications-navItem" id="journal">Journal Articles</button>
       <button class="publications-navItem" id="chapter">Book Chapters</button>
       <button class="publications-navItem" id="bookReview">Book Reviews</button>
-      <button class="publications-navItem" id="books">Books/Edited Work</button>
-      <button class="publications-navItem" id="underReview">Under Review</button>
     </div>
 
-    <div class="pubsPreview-list" id="journal-list">
-      {% for pub in site.data.publications %} {% include publication.html %} {% endfor %}
+    <div class="pubsPreview-list" id="books-list">
+      <!-- {% for pub in site.data.books %} {% include publication.html %} {% endfor %} -->
+      <ol>
+        {% for item in site.data.books %} {% include list-item.html %} {% endfor %}
+      </ol>
+    </div>
+
+    <div class="pubsPreview-list hidden" id="journal-list">
+      <ol>
+        {% for item in site.data.publications %} {% include list-item.html %} {% endfor %}
+      </ol>
     </div>
 
     <div class="pubsPreview-list hidden" id="chapter-list">
-      {% for book in site.data.chapters %} {% include book.html %} {% endfor %}
+      <ol>
+        {% for item in site.data.chapters %} {% include list-item.html %} {% endfor %}
+      </ol>
     </div>
 
     <div class="pubsPreview-list hidden" id="bookReview-list">
-      {% for book in site.data.book-reviews %} {% include book.html %} {% endfor %}
-    </div>
-
-    <div class="pubsPreview-list hidden" id="underReview-list">
-      {% for pub in site.data.under-review %} {% include publication.html %} {% endfor %}
-    </div>
-
-    <div class="pubsPreview-list hidden" id="books-list">
-      {% for pub in site.data.books %} {% include publication.html %} {% endfor %}
+      <ol>
+        {% for item in site.data.book-reviews %} {% include list-item.html %} {% endfor %}
+      </ol>
     </div>
   </div>
 </div>

@@ -1,8 +1,13 @@
-let activePublication = 'journal';
+let activePublication = 'books';
 
 const publicationSwitch = () => {
   const buttons = document.querySelectorAll('.publications-navItem');
+
   if (!buttons) return;
+
+  if (document.querySelector('.accolades')) {
+    activePublication = 'scholarships';
+  }
 
   buttons.forEach((button) =>
     button.addEventListener('click', (e) => {

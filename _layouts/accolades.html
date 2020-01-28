@@ -4,15 +4,21 @@ layout: default
 
 <div class="accolades">
   <div class="container section">
-    <h2 class="subheading accolades-subheading">Scholarships & Fellowships</h2>
-
-    <div class="scholarships section">
-      {% for scholarship in site.data.scholarships %} {% include scholarship.html %} {% endfor %}
+    <div class="publications-nav">
+      <button class="publications-navItem is-active" id="scholarships">Scholarships & Fellowships</button>
+      <button class="publications-navItem" id="awards">Awards</button>
     </div>
 
-    <h2 class="subheading accolades-subheading">Awards</h2>
-    <div class="awards section">
-      {% for award in site.data.awards %} {% include award.html %} {% endfor %}
+    <div class="pubsPreview-list" id="scholarships-list">
+      <ol>
+        {% for item in site.data.scholarships %} {% include accolade.html %} {% endfor %}
+      </ol>
+    </div>
+
+    <div class="pubsPreview-list hidden" id="awards-list">
+      <ol>
+        {% for item in site.data.awards %} {% include accolade.html %} {% endfor %}
+      </ol>
     </div>
   </div>
 </div>

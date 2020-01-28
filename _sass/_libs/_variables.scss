@@ -17,9 +17,13 @@ $color-bg-warning: $light-yellow;
 $color-compliment: #359be8;
 $color-compliment--dark: darken($color-compliment, 15%);
 $color-compliment--light: lighten($color-compliment, 40%);
-$color-primary: #de5a2f;
-$color-primary--light: lighten($color-primary, 38%);
-$color-primary--dark: #de5a2f;
+// $color-primary: #de5a2f;
+// $color-primary--light: lighten($color-primary, 38%);
+// $color-primary--dark: #de5a2f;
+
+$color-primary: #333;
+$color-primary--light: #eee;
+$color-primary--dark: #111;
 
 //* Margin/Padding
 $spacing-max: 80px;

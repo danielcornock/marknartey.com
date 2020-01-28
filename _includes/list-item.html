@@ -1,0 +1,8 @@
+<li class="listItem-container">
+  <span class="listItem-authors">{{ item.authors }}</span>
+  {% if item.year %}
+  <span class="listItem-year">({{item.year}}).</span>{% endif %}
+  <span class="listItem-content">{{ item.content }}</span>
+  <span class="listItem-italics">{{ item.location }}</span>
+  <span class="listItem-chapter">{{ item.chapter }}</span>
+</li>

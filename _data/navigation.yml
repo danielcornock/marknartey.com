@@ -10,6 +10,6 @@
 - name: Accolades
   link: /accolades
   icon: fas fa-award
-- name: Esteem Measures
-  link: /esteem-measures
+- name: Esteem
+  link: /esteem
   icon: fas fa-ruler

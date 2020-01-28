@@ -14,8 +14,8 @@
 }
 
 .section-divider.primary {
-  border-bottom: 3px solid #eca087;
-  border-top: 3px solid #eca087;
+  border-bottom: 3px solid #666666;
+  border-top: 3px solid #666666;
 }
 
 .section-divider.single {
@@ -45,13 +45,20 @@
      object-fit: cover;
 }
 
-.subheading {
-  color: #de5a2f;
+.subheading, .subheading--small {
+  color: #333;
   font-size: 30px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+  margin-bottom: 30px;
   font-weight: 200;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.subheading--small {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 .section {
@@ -65,6 +72,26 @@
 
 .text-link {
   color: #359be8;
+}
+
+.listItem-container {
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+.listItem-authors {
+  font-weight: 700;
+}
+
+.listItem-italics {
+  font-style: italic;
+}
+
+.listItem-conference {
+  font-style: italics;
 }
 
 .hero-container {
@@ -82,12 +109,12 @@
 }
 
 .hero-title {
-  color: #de5a2f;
-  letter-spacing: 20px;
+  color: #333;
+  text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+  letter-spacing: 6px;
   font-size: 60px;
+  font-family: 'Arvo', serif;
   margin-bottom: 15px;
-  font-weight: 300;
-  text-transform: uppercase;
 }
 
 .hero-subtitle {
@@ -134,7 +161,7 @@
 }
 
 .nav-link:hover {
-  color: #de5a2f;
+  color: #333;
 }
 
 .nav-link:hover .nav-icon {
@@ -149,8 +176,8 @@
 .nav-icon {
   -webkit-transition: 250ms;
   transition: 250ms;
-  background-color: #f9dfd6;
-  color: #de5a2f;
+  background-color: #eee;
+  color: #333;
   border-radius: 9999px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,11 +272,11 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #f9dfd6;
+  border-top: 4px solid #eee;
 }
 
 .pubsPreview-title {
-  color: #de5a2f;
+  color: #111;
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -265,8 +292,8 @@
   font-size: 16px;
   padding: 2px 9px;
   border-radius: 5px;
-  background-color: #f9dfd6;
-  color: #de5a2f;
+  background-color: #eee;
+  color: #333;
 }
 
 .pubsPreview-location {
@@ -286,7 +313,7 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: 25px;
-  color: #de5a2f;
+  color: #111;
   text-decoration: none;
   margin-left: auto;
 }
@@ -305,7 +332,7 @@
   border-radius: 9999px;
   height: 25px;
   width: 25px;
-  background-color: #f9dfd6;
+  background-color: #eee;
 }
 
 .pubsPreview-seeMore__text {
@@ -328,7 +355,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .publications-navItem {
@@ -343,8 +371,8 @@
   letter-spacing: 2px;
   font-size: 15px;
   border-radius: 9999px;
-  background-color: #f9dfd6;
-  color: #de5a2f;
+  background-color: #eee;
+  color: #111;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -354,12 +382,12 @@
 }
 
 .publications-navItem.is-active {
-  background-color: #de5a2f;
+  background-color: #1574bb;
   color: white;
 }
 
 .publications-navItem:hover {
-  background-color: #de5a2f;
+  background-color: #1574bb;
   color: white;
 }
 
@@ -379,22 +407,22 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #f9dfd6;
+  border-top: 4px solid #eee;
 }
 
 .conference-authors {
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #de5a2f;
+  color: #111;
 }
 
 .conference-year {
   font-size: 16px;
   padding: 2px 9px;
   border-radius: 5px;
-  background-color: #f9dfd6;
-  color: #de5a2f;
+  background-color: #eee;
+  color: #333;
 }
 
 .conference-content {
@@ -455,7 +483,7 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #f9dfd6;
+  border-top: 4px solid #eee;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -469,7 +497,7 @@
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #de5a2f;
+  color: #111;
   margin-bottom: 15px;
 }
 
@@ -478,12 +506,12 @@
   padding: 2px 9px;
   border-radius: 5px;
   font-weight: 600;
-  color: #de5a2f;
-  background-color: #f9dfd6;
+  color: #333;
+  background-color: #eee;
 }
 
 .scholarship-icon {
-  color: #de5a2f;
+  color: #333;
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -508,7 +536,7 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #f9dfd6;
+  border-top: 4px solid #eee;
   display: flex;
   flex-direction: column;
   -webkit-box-align: center;
@@ -522,7 +550,7 @@
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #de5a2f;
+  color: #111;
 }
 
 .award-presenter {
@@ -536,13 +564,13 @@
   font-size: 16px;
   padding: 2px 9px;
   border-radius: 5px;
-  color: #de5a2f;
-  background-color: #f9dfd6;
+  color: #333;
+  background-color: #eee;
   font-weight: 600;
 }
 
 .award-icon {
-  color: #de5a2f;
+  color: #333;
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -563,7 +591,7 @@
           align-items: flex-start;
   -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #f9dfd6;
+  border-top: 4px solid #eee;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -580,15 +608,15 @@
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #de5a2f;
+  color: #333;
 }
 
 .measure-year {
   font-size: 16px;
   padding: 2px 9px;
   border-radius: 5px;
-  color: #de5a2f;
-  background-color: #f9dfd6;
+  color: #333;
+  background-color: #eee;
   margin-bottom: 10px;
 }
 
@@ -602,8 +630,8 @@
 }
 
 .footer {
-  background-color: #f9dfd6;
-  border-top: 2px solid #de5a2f;
+  background-color: #eee;
+  border-top: 2px solid #333;
   margin-top: auto;
 }
 
@@ -622,7 +650,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #de5a2f;
+  color: #111;
 }
 
 .footer-details {
