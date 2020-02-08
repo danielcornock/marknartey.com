@@ -3,9 +3,9 @@
     <nav class="nav">
       {% for item in site.data.navigation %}
       <a href="{{ item.link | absolute_url }}" class="nav-link">
-        <div class="nav-icon">
+        <!-- <div class="nav-icon">
           <i class="{{ item.icon }}"></i>
-        </div>
+        </div> -->
         <span class="nav-link__text">{{ item.name}}</span>
       </a>
       {% endfor %}

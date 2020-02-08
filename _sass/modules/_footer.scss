@@ -1,6 +1,5 @@
 .footer {
-  background-color: $color-primary--light;
-  border-top: 2px solid $color-primary;
+  background-color: rgba(black, 0.015);
   margin-top: auto;
 
   &-container {
@@ -13,9 +12,41 @@
 
   &-details {
     font-size: 18px;
+    color: $color-compliment--dark;
+    @include flex;
   }
 
   &-address {
+    flex: 1 1 100%;
     font-size: 18px;
+    color: $color-compliment--dark;
+  }
+
+  &-social {
+    @include flex;
+    text-decoration: none;
+    align-items: center;
+
+    @include space-by(right, 30px);
+  }
+
+  &-socialIcon {
+    font-size: 20px;
+    color: white;
+  }
+
+  &-socialIconContainer {
+    margin-right: 10px;
+
+    background-color: $color-compliment;
+    border-radius: $br-max;
+    height: 35px;
+    width: 35px;
+    @include center-contents;
+  }
+
+  &-socialLabel {
+    font-size: 18px;
+    color: $color-compliment;
   }
 }

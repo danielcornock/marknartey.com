@@ -49,9 +49,9 @@
   color: #333;
   font-size: 30px;
   margin-bottom: 30px;
-  font-weight: 200;
   letter-spacing: 3px;
   text-align: center;
+  font-weight: 500;
 }
 
 .subheading--small {
@@ -105,7 +105,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .hero-title {
@@ -153,7 +153,7 @@
           align-items: center;
   color: #777;
   text-decoration: none;
-  padding: 0 20px;
+  padding: 0 30px;
   font-size: 17px;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -195,7 +195,7 @@
 }
 
 .about-container {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .about-intro {
@@ -234,7 +234,7 @@
 }
 
 .pubsPreview-container {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .pubsPreview-subheading {
@@ -631,8 +631,7 @@
 }
 
 .footer {
-  background-color: #eee;
-  border-top: 2px solid #333;
+  background-color: rgba(0, 0, 0, 0.015);
   margin-top: auto;
 }
 
@@ -656,10 +655,68 @@
 
 .footer-details {
   font-size: 18px;
+  color: #1574bb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .footer-address {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
   font-size: 18px;
+  color: #1574bb;
+}
+
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+}
+
+.footer-social:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+.footer-socialIcon {
+  font-size: 20px;
+  color: white;
+}
+
+.footer-socialIconContainer {
+  margin-right: 10px;
+  background-color: #359be8;
+  border-radius: 9999px;
+  height: 35px;
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-socialLabel {
+  font-size: 18px;
+  color: #359be8;
 }
 
 html {

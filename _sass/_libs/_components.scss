@@ -37,9 +37,10 @@
   // text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
   font-size: 30px;
   margin-bottom: 30px;
-  font-weight: 200;
   letter-spacing: 3px;
   text-align: center;
+  font-weight: 500;
+
 
   &--small {
     @extend .subheading;
