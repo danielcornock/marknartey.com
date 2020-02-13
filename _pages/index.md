@@ -1,6 +1,6 @@
 ---
 title: Mark Nartey
-subtitle: Ph.D., M.Phil., B.A.
+subtitle: Applied Linguist
 layout: index
 permalink: '/'
 ---
