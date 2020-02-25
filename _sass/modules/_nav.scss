@@ -6,6 +6,10 @@
   margin-top: 60px;
   flex-wrap: wrap;
 
+  @include media($phone) {
+    display: none;
+  }
+
   &-link {
     @include flex;
     align-items: center;
@@ -13,7 +17,7 @@
     text-decoration: none;
     padding: 0 30px;
     font-size: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-transform: uppercase;
 
     @include hover($t250) {

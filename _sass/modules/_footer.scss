@@ -8,18 +8,32 @@
     justify-content: space-between;
     align-items: center;
     color: $color-primary--dark;
+
+    @include media(1150px) {
+      flex-direction: column-reverse;
+    }
   }
 
   &-details {
     font-size: 18px;
     color: $color-compliment--dark;
     @include flex;
+
+    @include media(1150px) {
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+      justify-content: center;
+    }
   }
 
   &-address {
     flex: 1 1 100%;
     font-size: 18px;
     color: $color-compliment--dark;
+
+    @include media(1150px) {
+      align-self: flex-start;
+    }
   }
 
   &-social {

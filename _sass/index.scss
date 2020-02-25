@@ -9,6 +9,7 @@
 
 html {
   font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
 }
 body {
   overflow-x: hidden;
@@ -22,4 +23,8 @@ body {
   padding-right: 30px;
   margin: 0 auto;
   width: 100%;
+
+  @include media($phone) {
+    padding: 15px;
+  }
 }

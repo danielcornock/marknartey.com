@@ -45,6 +45,10 @@
     text-align: left;
     margin-bottom: 10px;
     margin-top: 40px;
+
+    @include media($phone) {
+      font-size: 20px;
+    }
   }
 }
 
@@ -71,6 +75,14 @@
     color: #333;
     margin-bottom: 30px;
     padding-left: 30px;
+    margin-left: 20px;
+
+    @include media($phone) {
+      font-size: 16px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      margin-left: 15px;
+    }
   }
 
   &-authors {
@@ -94,4 +106,52 @@
 
 ol {
   // padding-left: 30px;
+}
+
+.hamburger {
+  &-container {
+    @include button-reset;
+    @include center-contents;
+    border-radius: $br-med;
+    position: relative;
+    z-index: 1;
+  }
+
+  &-icon {
+    font-size: 30px;
+    color: #777;
+    margin-right: 10px;
+  }
+
+  &-text {
+    letter-spacing: 2px;
+    color: #777;
+  }
+}
+
+.mobile-nav {
+  &-container {
+    background-color: #eee;
+    color: #333;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    transition: 500ms;
+    padding-top: 90px;
+
+    .nav-link {
+      padding: 0 50px 0 15px;
+    }
+
+    &--active {
+      left: 0;
+      right: initial;
+    }
+
+    @include media($phone) {
+      display: block;
+    }
+  }
 }

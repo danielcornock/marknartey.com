@@ -14,14 +14,24 @@ const publicationSwitch = () => {
       document.querySelector(`#${activePublication}`).classList.remove('is-active');
 
       button.classList.add('is-active');
-      const list = document.querySelector(`#${button.id}-list`);
-      const oldList = document.querySelector(`#${activePublication}-list`);
 
-      list.classList.remove('hidden');
-      oldList.classList.add('hidden');
+      document.querySelector(`#${button.id}-list`).classList.remove('hidden');
+      document.querySelector(`#${activePublication}-list`).classList.add('hidden');
+
       activePublication = button.id;
     })
   );
 };
+
+const openMobileNav = () => {
+  const navButton = document.querySelector('.hamburger-container');
+  const mobileMenu = document.querySelector('.mobile-nav-container');
+
+  navButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('mobile-nav-container--active');
+  });
+};
+
+openMobileNav();
 
 publicationSwitch();

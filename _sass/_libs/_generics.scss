@@ -17,12 +17,6 @@
 }
 
 @mixin media($device) {
-  @media (min-width: $device) {
-    @content;
-  }
-}
-
-@mixin media-alt($device) {
   @media (max-width: $device) {
     @content;
   }

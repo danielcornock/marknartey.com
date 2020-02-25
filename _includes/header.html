@@ -1,14 +1,24 @@
 <header class="header">
   <div class="container">
+    <button class="hamburger-container">
+      <div class="hamburger-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+      <span class="hamburger-text">MENU</span>
+    </button>
     <nav class="nav">
       {% for item in site.data.navigation %}
       <a href="{{ item.link | absolute_url }}" class="nav-link">
-        <!-- <div class="nav-icon">
-          <i class="{{ item.icon }}"></i>
-        </div> -->
         <span class="nav-link__text">{{ item.name}}</span>
       </a>
       {% endfor %}
     </nav>
   </div>
 </header>
+<div class="mobile-nav-container">
+  {% for item in site.data.navigation %}
+  <a href="{{ item.link | absolute_url }}" class="nav-link">
+    <span class="nav-link__text">{{ item.name}}</span>
+  </a>
+  {% endfor %}
+</div>

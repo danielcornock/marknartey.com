@@ -71,6 +71,7 @@
     justify-content: center;
     margin-bottom: 50px;
     margin-top: 20px;
+    flex-wrap: wrap;
   }
 
   &-navItem {
@@ -84,6 +85,7 @@
     border-radius: $br-max;
     background-color: $color-primary--light;
     color: $color-primary--dark;
+    margin-bottom: 10px;
 
     &.is-active {
       background-color: $color-compliment--dark;
@@ -93,6 +95,15 @@
     @include hover(250ms) {
       background-color: $color-compliment--dark;
       color: white;
+    }
+
+    @include media($phone) {
+      // font-size: 12px;
+      // padding: 6px 9px;
+      width: 100%;
+      margin-right: 0;
+
+      margin-bottom: 10px;
     }
   }
 }

@@ -2,7 +2,7 @@
   &-container {
     @include flex(column);
     align-items: center;
-    padding: 70px 0;
+    padding: 30px 0 50px;
   }
 
   &-title {
@@ -13,11 +13,22 @@
     font-family: 'Arvo', serif;
     margin-bottom: 15px;
     text-transform: uppercase;
+    text-align: center;
+
+    @include media($tablet) {
+      font-size: 24px;
+      letter-spacing: 5px;
+    }
   }
 
   &-subtitle {
     color: #777;
     font-size: 17px;
     letter-spacing: 3px;
+    text-align: center;
+
+    @include media($tablet) {
+      font-size: 14px;
+    }
   }
 }
