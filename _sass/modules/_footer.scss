@@ -22,7 +22,8 @@
     @include media(1150px) {
       flex-wrap: wrap;
       margin-bottom: 30px;
-      justify-content: center;
+      justify-content: space-around;
+      width: 100%;
     }
   }
 
@@ -32,7 +33,7 @@
     color: $color-compliment--dark;
 
     @include media(1150px) {
-      align-self: flex-start;
+      text-align: center;
     }
   }
 
@@ -42,6 +43,10 @@
     align-items: center;
 
     @include space-by(right, 30px);
+
+    @include media(1150px) {
+      margin-right: 0;
+    }
   }
 
   &-socialIcon {
@@ -57,10 +62,18 @@
     height: 35px;
     width: 35px;
     @include center-contents;
+
+    @include media(1150px) {
+      margin-right: 0;
+    }
   }
 
   &-socialLabel {
     font-size: 18px;
     color: $color-compliment;
+
+    @include media(1150px) {
+      display: none;
+    }
   }
 }

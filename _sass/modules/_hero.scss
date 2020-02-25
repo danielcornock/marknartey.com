@@ -3,6 +3,10 @@
     @include flex(column);
     align-items: center;
     padding: 30px 0 50px;
+
+    @include media($phone) {
+      padding: 30px 0;
+    }
   }
 
   &-title {

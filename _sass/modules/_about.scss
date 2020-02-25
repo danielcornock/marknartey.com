@@ -1,7 +1,9 @@
 .about {
   &-container {
     padding: 30px 0;
-    // @include flex(column);
+    @include media($phone) {
+      padding: 0;
+    }
   }
 
   &-intro {
