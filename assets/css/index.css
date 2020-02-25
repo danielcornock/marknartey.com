@@ -854,6 +854,12 @@
   }
 }
 
+@media (max-width: 480px) {
+  .footer-details {
+    font-size: 16px;
+  }
+}
+
 .footer-address {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
@@ -865,6 +871,12 @@
 @media (max-width: 1150px) {
   .footer-address {
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-address {
+    font-size: 16px;
   }
 }
 

@@ -25,6 +25,10 @@
       justify-content: space-around;
       width: 100%;
     }
+
+    @include media($phone) {
+      font-size: 16px;
+    }
   }
 
   &-address {
@@ -34,6 +38,10 @@
 
     @include media(1150px) {
       text-align: center;
+    }
+
+    @include media($phone) {
+      font-size: 16px;
     }
   }
 
