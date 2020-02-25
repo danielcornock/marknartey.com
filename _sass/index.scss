@@ -16,6 +16,10 @@ body {
   background-color: rgb(247, 248, 253);
   @include flex(column);
   min-height: 100vh;
+
+  @include media($phone) {
+    background-color: white;
+  }
 }
 .container {
   max-width: 1200px;

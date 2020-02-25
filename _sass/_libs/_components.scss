@@ -112,9 +112,14 @@ ol {
   &-container {
     @include button-reset;
     @include center-contents;
+    display: none;
     border-radius: $br-med;
     position: relative;
-    z-index: 1;
+    z-index: 30;
+
+    @include media($phone) {
+      display: flex;
+    }
   }
 
   &-icon {
@@ -131,15 +136,17 @@ ol {
 
 .mobile-nav {
   &-container {
-    background-color: #eee;
+    background-color: #f7f7f7;
     color: #333;
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -100%;
     height: 100vh;
     transition: 500ms;
     padding-top: 90px;
+    z-index: 20;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
 
     .nav-link {
       padding: 0 50px 0 15px;

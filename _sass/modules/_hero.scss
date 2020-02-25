@@ -16,7 +16,11 @@
     text-align: center;
 
     @include media($tablet) {
-      font-size: 24px;
+      font-size: 40px;
+      letter-spacing: 8px;
+    }
+    @include media($phone) {
+      font-size: 29px;
       letter-spacing: 5px;
     }
   }
