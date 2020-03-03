@@ -15,4 +15,6 @@ collections:
             name: 'items'
             widget: 'list'
             fields:
-              - { label: Content, name: content, widget: string }
+              - label: 'Content'
+              - name: 'content'
+              - widget: 'string'
