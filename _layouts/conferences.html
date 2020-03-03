@@ -6,7 +6,7 @@ layout: default
   <div class="container section">
     <div class="conferences-list">
       <ol>
-        {% for conf in site.data.conferences %} {% include conference.html %} {% endfor %}
+        {% for conf in site.data.conferences.items %} {% include conference.html %} {% endfor %}
       </ol>
     </div>
   </div>

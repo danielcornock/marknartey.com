@@ -8,7 +8,7 @@ collections:
     label: 'Content'
     files:
       - label: 'Publications'
-        name: 'Conferences'
+        name: 'Publications'
         file: '_data/publications.yml'
         fields:
           - label: 'Publications'
