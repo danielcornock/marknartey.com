@@ -15,20 +15,18 @@ collections:
             name: 'items'
             widget: 'list'
             fields:
-              - label: 'Content'
-              - name: 'content'
-              - widget: 'string'
-      # - label: 'Conferences'
-      #   name: 'Conferences'
-      #   file: '_data/conferences.yml'
-      #   fields:
-      #     - label: 'Conferences'
-      #       name: 'items'
-      #       widget: 'list'
-      #       fields:
-      #         - { label: 'Authors', name: 'authors', widget: 'string' }
-      #         - { label: 'Year', name: 'year', widget: 'string' }
-      #         - { label: 'Content', name: 'content', widget: 'string' }
-      #         - { label: 'Conference', name: 'conference', widget: 'string' }
-      #         - { label: 'Location', name: 'location', widget: 'string' }
-      #         - { label: 'Date', name: 'date', widget: 'string' }
+              - { label: 'Content', name: 'content', widget: 'string' }
+      - label: 'Conferences'
+        name: 'Conferences'
+        file: '_data/conferences.yml'
+        fields:
+          - label: 'Conferences'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: 'Authors', name: 'authors', widget: 'string' }
+              - { label: 'Year', name: 'year', widget: 'string' }
+              - { label: 'Content', name: 'content', widget: 'string' }
+              - { label: 'Conference', name: 'conference', widget: 'string' }
+              - { label: 'Location', name: 'location', widget: 'string' }
+              - { label: 'Date', name: 'date', widget: 'string' }
