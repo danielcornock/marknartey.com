@@ -2,21 +2,17 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/img'
-files:
-  - label: 'Publications'
-    name: 'publications'
-    file: '_data/publications.yml'
-    fields:
-      - label: 'Publications'
-        name: 'items'
-        widget: 'list'
-        fields:
-          - { label: Content, name: name, widget: string }
+
 collections:
-  - name: 'post'
-    label: 'Post'
-    folder: '_posts'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
+  - name: 'Publications'
+    label: 'Publication'
+    files:
+      - label: 'Publications'
+        name: 'publications'
+        file: '_data/publications.yml'
+        fields:
+          - label: 'Publications'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: Content, name: name, widget: string }
