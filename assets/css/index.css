@@ -530,7 +530,7 @@
   padding: 10px 15px;
   font-weight: 300;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 12px;
   border-radius: 9999px;
   background-color: #eee;
   color: #111;
@@ -876,7 +876,7 @@
 
 @media (max-width: 480px) {
   .footer-address {
-    font-size: 16px;
+    font-size: 11px;
   }
 }
 
