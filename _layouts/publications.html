@@ -20,7 +20,7 @@ layout: default
 
     <div class="pubsPreview-list hidden" id="journal-list">
       <ol>
-        {% for item in site.data.publications %} {% include list-item.html %} {% endfor %}
+        {% for item in site.data.publications.items %} {% include list-item.html %} {% endfor %}
       </ol>
     </div>
 
