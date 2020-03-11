@@ -5,7 +5,7 @@ layout: default
 <div class="measures">
   <div class="container section">
     <ol>
-      {% for measure in site.data.esteem-measures %} {% include esteem-measure.html %} {% endfor %}
+      {% for measure in site.data.esteem-measures.items %} {% include esteem-measure.html %} {% endfor %}
     </ol>
   </div>
 </div>

@@ -14,7 +14,7 @@ layout: default
     <div class="pubsPreview-list" id="books-list">
       <!-- {% for pub in site.data.books %} {% include publication.html %} {% endfor %} -->
       <ol>
-        {% for item in site.data.books %} {% include list-item.html %} {% endfor %}
+        {% for item in site.data.books.items %} {% include list-item.html %} {% endfor %}
       </ol>
     </div>
 
@@ -26,13 +26,13 @@ layout: default
 
     <div class="pubsPreview-list hidden" id="chapter-list">
       <ol>
-        {% for item in site.data.chapters %} {% include list-item.html %} {% endfor %}
+        {% for item in site.data.chapters.items %} {% include list-item.html %} {% endfor %}
       </ol>
     </div>
 
     <div class="pubsPreview-list hidden" id="bookReview-list">
       <ol>
-        {% for item in site.data.book-reviews %} {% include list-item.html %} {% endfor %}
+        {% for item in site.data.book-reviews.items %} {% include list-item.html %} {% endfor %}
       </ol>
     </div>
   </div>
