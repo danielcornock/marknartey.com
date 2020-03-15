@@ -4,6 +4,16 @@ backend:
 media_folder: 'assets/img'
 
 collections:
+  - name: 'Pages'
+    label: 'Pages'
+    files:
+      - label: 'About page'
+        name: 'about'
+        file: 'index.md'
+        fields:
+          - label: 'Content'
+            name: 'body'
+            widget: 'markdown'
   - name: 'Content'
     label: 'Content'
     files:

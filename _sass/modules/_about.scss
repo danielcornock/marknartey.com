@@ -4,6 +4,39 @@
     @include media($phone) {
       padding: 0;
     }
+
+    img {
+      @extend .about-img;
+    }
+
+    h1 {
+      @extend .subheading;
+    }
+
+    h2 {
+      @extend .subheading--small;
+    }
+
+    ul {
+      @extend .about-list;
+    }
+
+    li {
+      @extend .about-intro;
+      @extend .about-list__item;
+    }
+
+    p {
+      @extend .about-intro;
+    }
+
+    a {
+      @extend .text-link;
+
+      &:hover {
+        color: $color-compliment--dark;
+      }
+    }
   }
 
   &-intro {
@@ -27,31 +60,15 @@
   }
 
   &-img {
-    width: 350px;
     height: 320px;
-    background-color: rgb(247, 248, 253);
-    margin: auto;
+    width: 320px;
+    object-fit: cover;
     float: right;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    & > img {
-      height: 320px;
-      width: 320px;
-      position: relative;
-      z-index: 1;
-    }
 
     @include media($tablet) {
       float: none;
       width: 100%;
       height: auto;
-
-      & > img {
-        height: auto;
-        width: 100%;
-      }
     }
   }
 }

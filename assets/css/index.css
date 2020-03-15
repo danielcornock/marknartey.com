@@ -45,7 +45,7 @@
      object-fit: cover;
 }
 
-.subheading, .subheading--small {
+.subheading, .subheading--small, .about-container h2, .about-container h1 {
   color: #333;
   font-size: 30px;
   margin-bottom: 30px;
@@ -55,12 +55,12 @@
 }
 
 @media (max-width: 480px) {
-  .subheading, .subheading--small {
+  .subheading, .subheading--small, .about-container h2, .about-container h1 {
     font-size: 22px;
   }
 }
 
-.subheading--small {
+.subheading--small, .about-container h2 {
   font-size: 24px;
   text-align: left;
   margin-bottom: 10px;
@@ -68,7 +68,7 @@
 }
 
 @media (max-width: 480px) {
-  .subheading--small {
+  .subheading--small, .about-container h2 {
     font-size: 20px;
   }
 }
@@ -82,7 +82,7 @@
   display: none !important;
 }
 
-.text-link {
+.text-link, .about-container a {
   color: #359be8;
 }
 
@@ -326,7 +326,11 @@
   }
 }
 
-.about-intro {
+.about-container a:hover {
+  color: #1574bb;
+}
+
+.about-intro, .about-container li, .about-container p {
   font-size: 18px;
   line-height: 200%;
   color: #666;
@@ -334,56 +338,36 @@
 }
 
 @media (max-width: 480px) {
-  .about-intro {
+  .about-intro, .about-container li, .about-container p {
     font-size: 16px;
   }
 }
 
-.about-intro:nth-last-child(1) {
+.about-intro:nth-last-child(1), .about-container li:nth-last-child(1), .about-container p:nth-last-child(1) {
   margin-bottom: 0px;
 }
 
-.about-list {
+.about-list, .about-container ul {
   list-style-position: outside;
 }
 
-.about-list__item {
+.about-list__item, .about-container li {
   margin-left: 20px;
 }
 
-.about-img {
-  width: 350px;
-  height: 320px;
-  background-color: #f7f8fd;
-  margin: auto;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.about-img > img {
+.about-img, .about-container img {
   height: 320px;
   width: 320px;
-  position: relative;
-  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  float: right;
 }
 
 @media (max-width: 768px) {
-  .about-img {
+  .about-img, .about-container img {
     float: none;
     width: 100%;
     height: auto;
-  }
-  .about-img > img {
-    height: auto;
-    width: 100%;
   }
 }
 

@@ -3,88 +3,21 @@ layout: default
 ---
 
 <div class="about">
-    <div class="container">
-      <div class="about-container">
-        <h2 class="subheading">Welcome to my webpage!</h2>
-        <div class="about-img">
-          <img class="img" src={{ "assets/img/Headshot.jpeg" | absolute_url }}
-          alt="">
-        </div>
-        <h2 class="subheading--small">Qualifications</h2>
-        <ul class="about-list">
-          <li class="about-intro about-list__item">
-            Ph.D. in Applied Linguistics, The Hong Kong Polytechnic University, Hong Kong
-          </li>
-          <li class="about-intro about-list__item">
-            M.Phil. in Linguistics, Norwegian University of Science and Technology, Norway
-          </li>
-          <li class="about-intro about-list__item">
-            B.A. in English Language and Linguistics (First Class Honors), University of Cape Coast, Ghana 
-          </li>
-        </ul>
-        <h2 class="subheading--small">Research Overview</h2>
-
-        <p class="about-intro">
-          I am a Postdoctoral Research Fellow in the <a href="https://www.polyu.edu.hk/engl/" class="text-link">Department of English</a> at The Hong Kong Polytechnic
-          University and a member of the <a href="http://rcpce.engl.polyu.edu.hk/rcpce/" class="text-link">Research Center for Professional Communication in English (RCPCE)</a>. I am an interdisciplinary scholar who specializes in
-          corpus-assisted discourse studies and in the theory and application
-          of critical discourse analysis in political, media and other public
-          discourses.
-          I am interested in the interplay of discourse, ideology and
-          mythology, and I explore these from a critical discourse analytical
-          perspective.
-        </p>
-
-        <p class="about-intro">
-          The main analytic and/or theoretical frameworks I adopt are discourse-historical analysis, critical metaphor analysis and discourse-mythological analysis, combining them with corpus methods and insights from history, communication studies and political science. My published work has drawn heavily on comparative and interdisciplinary research frameworks, with some exploring phenomena in Ghana, China, Australia and the UK. I have published extensively in the field of (applied) linguistics; my recent papers have appeared in journals such as <i>Corpora</i>, <i>World Englishes</i>, <i>Language and Intercultural Communication</i>, <i>Critical Discourse Studies</i>, and <i>Journal of Language and Politics</i>, among others. Continuing in my interdisciplinary orientation, my current research direction has four strands: 
-          
-          <ul class="about-list">
-            <li class="about-intro about-list__item">exploring discourse mythology and
-                populist ideology from a comparative East-West or Africa-West or
-                Africa-Asia perspective;</li>
-            <li class="about-intro about-list__item">analyzing emancipatory discourses of less powerful groups, focusing on how they counter discriminatory practices directed at them;</li>
-            <li class="about-intro about-list__item">investigating discourses on the Chinese
-                and other Asian population groups in Ghana (e.g. Indians, Lebanese);</li>
-            <li class="about-intro about-list__item">examining the discursive construction of minority groups in
-                the Ghanaian media and in the English media in Hong Kong.</li>
-          </ul>
-        </p>
-
-        <h2 class="subheading--small">Research Interests</h2>
-        <p class="about-intro">
-          <ul class="about-list">
-            <li class="about-intro about-list__item">
-              Corpus-Assisted Discourse Studies
-            </li>
-            <li class="about-intro about-list__item">
-              (Critical) Discourse Analysis
-            </li>
-            <li class="about-intro about-list__item">
-              Discourse Mythologies
-            </li>
-            <li class="about-intro about-list__item">
-              Language and Identity
-            </li>
-            <li class="about-intro about-list__item">
-              Language and/in Politics
-            </li>
-            <li class="about-intro about-list__item">
-              On Chinese and Other Asian Population Groups in Ghana
-            </li>
-          </ul>
-        </p>
-      </div>
+  <div class="container">
+    <div class="about-container">
+      {{ content }}
     </div>
   </div>
+</div>
 
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', (user) => {
+      if (!user) {
+        window.netlifyIdentity.on('login', () => {
+          document.location.href = '/admin/';
+        });
+      }
+    });
+  }
+</script>
