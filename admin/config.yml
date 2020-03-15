@@ -11,6 +11,12 @@ collections:
         name: 'about'
         file: 'index.md'
         fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Subtitle'
+            name: 'subtitle'
+            widget: 'string'
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
