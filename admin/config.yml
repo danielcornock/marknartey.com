@@ -11,7 +11,7 @@ collections:
         name: 'about'
         file: 'index.md'
         fields:
-          - label: 'Content'
+          - label: 'Body'
             name: 'body'
             widget: 'markdown'
   - name: 'Content'
