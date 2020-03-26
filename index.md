@@ -16,8 +16,7 @@ permalink: /
 
 ## Research Overview
 
-I am a Postdoctoral Research Fellow in the [Department of English](https://www.polyu.edu.hk/engl/) at The Hong Kong Polytechnic University and a member of the [Research Center for Professional Communication in English (RCPCE)](http://rcpce.engl.polyu.edu.hk/rcpce/). I am an interdisciplinary scholar who specializes in corpus-assisted discourse studies and in the theory and application of critical discourse analysis in political, media and other public
-discourses.
+I am a Postdoctoral Research Fellow in the [Department of English](https://www.polyu.edu.hk/engl/) at The Hong Kong Polytechnic University and a member of the [Research Center for Professional Communication in English (RCPCE)](http://rcpce.engl.polyu.edu.hk/rcpce/). I am an interdisciplinary scholar who specializes in corpus-assisted discourse studies and in the theory and application of critical discourse analysis in political, media and other public discourses.
 I am interested in the interplay of discourse, ideology and
 mythology, and I explore these from a critical discourse analytical
 perspective.
@@ -43,5 +42,5 @@ The main analytic and/or theoretical frameworks I adopt are discourse-historical
 * (Critical) Discourse Analysis
 * Language, Culture and Society
 * Language and/in Politics
-* Practical Communication Strategies
+* Semiotic Theory
 * Academic Writing
