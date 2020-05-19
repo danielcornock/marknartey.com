@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _data/publications.yml
+  path: "./_data/publications.yml"
   label: Publications
   match: "**/*"
 - type: jekyll-pages
