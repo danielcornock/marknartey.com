@@ -356,11 +356,14 @@
 }
 
 .about-img, .about-container img {
-  height: 320px;
+  height: 440px;
   width: 320px;
   -o-object-fit: cover;
      object-fit: cover;
   float: right;
+  -o-object-position: top;
+     object-position: top;
+  padding-left: 20px;
 }
 
 @media (max-width: 768px) {
@@ -368,6 +371,7 @@
     float: none;
     width: 100%;
     height: auto;
+    padding-left: 0;
   }
 }
 

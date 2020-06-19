@@ -60,15 +60,18 @@
   }
 
   &-img {
-    height: 320px;
+    height: 440px;
     width: 320px;
     object-fit: cover;
     float: right;
+    object-position: top;
+    padding-left: 20px;
 
     @include media($tablet) {
       float: none;
       width: 100%;
       height: auto;
+      padding-left: 0;
     }
   }
 }
