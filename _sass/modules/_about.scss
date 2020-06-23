@@ -72,15 +72,19 @@
       width: 100%;
       height: auto;
       padding-left: 0;
+      max-height: 600px;
+    }
+
+    @include media(540px) {
       max-height: 500px;
     }
 
-    @include media($phone) {
+    @include media(440px) {
       float: none;
       width: 100%;
       height: auto;
       padding-left: 0;
-      max-height: 350px;
+      max-height: 400px;
     }
   }
 }
