@@ -24,7 +24,7 @@ perspective.
 The main analytic and/or theoretical frameworks I adopt are discourse-historical analysis, critical metaphor analysis and discourse-mythological analysis, combining them with corpus methods and insights from history, communication studies and political science. My published work has drawn heavily on comparative and interdisciplinary research frameworks, with some exploring phenomena in Ghana, China, Australia and the UK. I have published extensively in the field of (applied) linguistics; my recent papers have appeared in journals such as *Corpora*, *World Englishes*, *Language and Intercultural Communication*, *Critical Discourse Studies*, and *Journal of Language and Politics*, among others. Continuing in my interdisciplinary orientation, my current research direction has four strands:
 
 * exploring discourse mythology and populist ideology from a comparative East-West or Africa-West or Africa-Asia perspective;
-* analyzing emancipatory discourses of less powerful and/or non-dominant groups, focusing on how they counter discriminatory practices directed at them;
+* analyzing discourses surrounding ethnic minorities as well as non-dominant and/or of less powerful groups, especially how they counter discriminatory practices directed at them and negotiate a positive identity for themselves;
 * investigating discourses on the Chinese and other Asian population groups in Ghana (e.g. Indians, Lebanese);
 * examining the discursive construction of minority groups in the Ghanaian media and in the English media in Hong Kong.
 
