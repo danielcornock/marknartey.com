@@ -10,7 +10,7 @@ permalink: /
 
 ## Qualifications
 
-* Ph.D. in Applied Linguistics, The Hong Kong Polytechnic University, Hong Kong
+* Ph.D. in Discourse Studies, The Hong Kong Polytechnic University, Hong Kong
 * M.Phil. in Linguistics, Norwegian University of Science and Technology, Norway
 * B.A. in English Language and Linguistics (First Class Honors), University of Cape Coast, Ghana
 
