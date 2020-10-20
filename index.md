@@ -16,10 +16,7 @@ permalink: /
 
 ## Research Overview
 
-I am a Postdoctoral Research Fellow in the [Department of English](https://www.polyu.edu.hk/engl/) at The Hong Kong Polytechnic University and a member of the [Research Center for Professional Communication in English (RCPCE)](http://rcpce.engl.polyu.edu.hk/rcpce/). I am an interdisciplinary scholar who specializes in corpus-assisted discourse studies and in the theory and application of critical discourse analysis in political, media and other public discourses.
-I am interested in the interplay of discourse, ideology and
-mythology, and I explore these from a critical discourse analytical
-perspective.
+I hold The Hong Kong Polytechnic University Distinguished Postdoctoral Fellowship in the [Department of English](https://www.polyu.edu.hk/engl/) and I am a member of the [Research Center for Professional Communication in English (RCPCE)](http://rcpce.engl.polyu.edu.hk/rcpce/). I am an interdisciplinary scholar who specializes in corpus-assisted discourse studies and in the theory and application of critical discourse analysis in political, media and other public discourses. I am interested in the interplay of discourse, ideology and mythology, and I explore these from a critical discourse analytical perspective.
 
 The main analytic and/or theoretical frameworks I adopt are discourse-historical analysis, critical metaphor analysis and discourse-mythological analysis, combining them with corpus methods and insights from history, communication studies and political science. My published work has drawn heavily on comparative and interdisciplinary research frameworks, with some exploring phenomena in Ghana, China, Australia and the UK. I have published extensively in the field of (applied) linguistics; my recent papers have appeared in journals such as *Corpora*, *World Englishes*, *Language and Intercultural Communication*, *Critical Discourse Studies*, and *Journal of Language and Politics*, among others. Continuing in my interdisciplinary orientation, my current research direction has four strands:
 
