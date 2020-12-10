@@ -29,7 +29,7 @@ The main analytic and/or theoretical frameworks I adopt are discourse-historical
 
 * Corpus-Assisted Discourse Studies
 * (Critical) Discourse Analysis
-* Discourse Mythologies
+* Media Studies
 * Language and Identities
 * Language and/in Politics
 * On Chinese and Other Asian Population Groups in Ghana
