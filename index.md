@@ -1,6 +1,6 @@
 ---
 title: Mark Nartey
-subtitle: Applied Linguist
+subtitle: Applied Linguist | Discourse Analyst | Communications Strategist
 layout: index
 permalink: /
 ---
