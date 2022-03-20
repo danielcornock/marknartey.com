@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="accolades">
+  <div class="container section">
+    <div class="publications-nav">
+      <button class="publications-navItem is-active" id="scholarships">
+        Scholarships & Fellowships
+      </button>
+      <button class="publications-navItem" id="awards">Awards</button>
+      <button class="publications-navItem" id="service">Service</button>
+    </div>
+
+    <div class="pubsPreview-list" id="scholarships-list">
+      <ol>
+        {% for item in site.data.scholarships.items %} {% include accolade.html
+        %} {% endfor %}
+      </ol>
+    </div>
+
+    <div class="pubsPreview-list hidden" id="awards-list">
+      <ol>
+        {% for item in site.data.awards.items %} {% include accolade.html %} {%
+        endfor %}
+      </ol>
+    </div>
+
+    <div class="hidden" id="service-list">
+      <h2 class="subheading--small">Peer Review</h2>
+      <p class="about-intro">
+        I review papers for journals in applied linguistics, discourse studies,
+        communication and media studies and African/Asian studies. Some of the
+        journals include:
+      </p>
+
+      <div class="pubsPreview-list" id="service-list">
+        <ol>
+          {% for item in site.data.peer-review.items %} {% include accolade.html
+          %} {% endfor %}
+        </ol>
+      </div>
+
+      <h2 class="subheading--small" style="margin-bottom: 20px">Leadership</h2>
+      <div class="pubsPreview-list">
+        <ol>
+          {% for item in site.data.leadership.items %} {% include list-item.html
+          %} {% endfor %}
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>

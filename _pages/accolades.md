@@ -1,5 +1,5 @@
 ---
-layout: accolades
-title: Accolades
-permalink: '/accolades/'
+layout: esteem
+title: Esteem
+permalink: '/esteem/'
 ---

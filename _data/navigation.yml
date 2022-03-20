@@ -1,15 +1,12 @@
 - name: About Me
   link: /
-  icon: fas fa-user-alt
 - name: Publications
   link: /publications
-  icon: fas fa-book
+- name: Teaching
+  link: /teaching
 - name: Conferences
   link: /conferences
-  icon: fas fa-microphone
-- name: Accolades
-  link: /accolades
-  icon: fas fa-award
 - name: Esteem
   link: /esteem
-  icon: fas fa-ruler
+- name: Consultancy
+  link: /consultancy

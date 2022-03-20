@@ -20,6 +20,33 @@ collections:
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
+      - label: 'Consultancy page',
+        name: 'consultancy'
+        file: '_pages/consultancy.md'
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Subtitle'
+            name: 'subtitle'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: 'Teaching page',
+        name: 'teaching'
+        file: '_pages/teaching.md'
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Subtitle'
+            name: 'subtitle'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+
   - name: 'Content'
     label: 'Content'
     files:
@@ -105,6 +132,24 @@ collections:
         file: '_data/under-review.yml'
         fields:
           - label: 'Under Review'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: 'Content', name: 'content', widget: 'string' }
+      - label: 'Esteem Service Leadership'
+        name: 'Esteem Service Leadership'
+        file: '_data/leadership.yml'
+        fields:
+          - label: 'Leadership'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: 'Content', name: 'content', widget: 'string' }
+      - label: 'Esteem Service Peer Review'
+        name: 'Esteem Service Peer Review'
+        file: '_data/peer-review.yml'
+        fields:
+          - label: 'Peer Review'
             name: 'items'
             widget: 'list'
             fields:
