@@ -20,7 +20,8 @@ collections:
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
-      - label: 'Consultancy page',
+
+      - label: 'Consultancy page'
         name: 'consultancy'
         file: '_pages/consultancy.md'
         fields:
@@ -33,7 +34,8 @@ collections:
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
-      - label: 'Teaching page',
+
+      - label: 'Teaching page'
         name: 'teaching'
         file: '_pages/teaching.md'
         fields:
