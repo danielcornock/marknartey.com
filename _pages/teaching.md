@@ -31,7 +31,7 @@ I am experienced in curriculum planning as well as designing and delivering ling
 * ENG306: Aspects of the Grammar of English
 * ENG401A: Structure and Style
 
-## I have supervised the following dissertations:
+## Dissertations supervised
 
 * **Long Hin Wills Yick** - A critical stylistic analysis of the representation of society in American hip-hop music (B.A. dissertation)
 * **Yik Lam Leung** - A multimodal discourse analysis of Korean liquor advertisements (B.A. dissertation)
