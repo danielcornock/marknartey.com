@@ -2,7 +2,7 @@
 layout: index
 title: Teaching
 permalink: /teaching/
-subtitle: Teaching
+subtitle: .
 ---
 Who I am as a teacher is a direct result of who I am as a learner. I adopt a participatory, student-centered approach to teaching and learning as I consider this method to be an effective way of maximizing the creative potential of students. To this end, I employ dialogic teaching where I situate myself as a learner-cum-facilitator who models active listening and engagement. I also take a critical approach to curriculum development that underscores commitment to diversity in teaching, assessment and student support.
 
