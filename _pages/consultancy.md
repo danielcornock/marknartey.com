@@ -8,7 +8,7 @@ I am available to take on consulting projects in the areas of English Language, 
 
 I offer the following consultancy services:
 
-* Professional writing services – visit 'The Writers' on [Facebook](https://www.facebook.com/Thewriters_gh-299715594001479) and [Instagram](https://www.instagram.com/thewriters_gh/) for more details.
+* Professional writing services – visit *The Writers* on [Facebook](https://www.facebook.com/Thewriters_gh-299715594001479) and [Instagram](https://www.instagram.com/thewriters_gh/) for more details.
 * Reviewing drafted (political) speeches
 * Advice on brand communication and public relations
 * Coaching and guidance on PhD-related practices or pursuits such as:
