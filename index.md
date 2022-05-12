@@ -6,7 +6,7 @@ permalink: /
 ---
 # Welcome to my website!
 
-![Photo of Mark Nartey](/assets/img/Headshot.jpeg)
+![Photo of Mark Nartey](/assets/img/Headshot2.jpg)
 
 ## Qualifications
 
