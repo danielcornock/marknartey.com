@@ -4,16 +4,15 @@ subtitle: Applied Linguist | Discourse Analyst | Communications Strategist
 layout: index
 permalink: /
 ---
-
 # Welcome to my website!
 
-![Photo of Mark Nartey](../assets/img/Headshot2.jpg 'Photo of Mark Nartey')
+![Photo of Mark Nartey](/assets/img/Headshot.jpeg)
 
 ## Qualifications
 
-- Ph.D. in Discourse Studies, The Hong Kong Polytechnic University, Hong Kong
-- M.Phil. in Linguistics, Norwegian University of Science and Technology, Norway
-- B.A. in English Language and Linguistics (First Class Honors), University of Cape Coast, Ghana
+* Ph.D. in Discourse Studies, The Hong Kong Polytechnic University, Hong Kong
+* M.Phil. in Linguistics, Norwegian University of Science and Technology, Norway
+* B.A. in English Language and Linguistics (First Class Honors), University of Cape Coast, Ghana
 
 ## Research Overview
 
@@ -23,17 +22,17 @@ The main analytical approaches I adopt are (critical) discourse analysis, critic
 
 ## Research Interests
 
-- Corpus-Assisted Discourse Studies
-- Communication and Media Studies
-- Language and Identities
-- Language and Diversity
-- Language and/in Politics
-- On Chinese and Other Asian Population Groups in Ghana
+* Corpus-Assisted Discourse Studies
+* Communication and Media Studies
+* Language and Identities
+* Language and Diversity
+* Language and/in Politics
+* On Chinese and Other Asian Population Groups in Ghana
 
 ## Teaching Areas
 
-- (Critical) Discourse Analysis
-- Language, Culture and Society
-- Language and/in Politics
-- Research Methods
-- Semiotic Theory
+* (Critical) Discourse Analysis
+* Language, Culture and Society
+* Language and/in Politics
+* Research Methods
+* Semiotic Theory
