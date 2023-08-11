@@ -36,5 +36,8 @@ I am experienced in curriculum planning as well as designing and delivering ling
 
 ## Dissertations supervised
 
-* **Long Hin Wills Yick** - A critical stylistic analysis of the representation of society in American hip-hop music (B.A. dissertation)
 * **Yik Lam Leung** - A multimodal discourse analysis of Korean liquor advertisements (B.A. dissertation)
+* **E﻿sme Whitworth** - A discourse analysis of the language used in bereavement stories by young people  (B.A. dissertation)
+* **Margarita Vasileiou** - The discursive representations of LGBTQ+ football fans on social media (B.A. dissertation)
+* **Lucas Farndale** - An investigation into the relationship between confidence and language efficiency (B.A. dissertation)
+* **Jihan Abdi** - A critical discourse analysis of the speeches of Malcolm X (B.A. dissertation)
