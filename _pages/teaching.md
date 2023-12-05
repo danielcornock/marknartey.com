@@ -41,4 +41,3 @@ I am experienced in curriculum planning as well as designing and delivering ling
 * **Margarita Vasileiou** - The discursive representations of LGBTQ+ football fans on social media (B.A. dissertation)
 * **Lucas Farndale** - An investigation into the relationship between confidence and language efficiency (B.A. dissertation)
 * **Jihan Abdi** - A critical discourse analysis of the speeches of Malcolm X (B.A. dissertation)
-* **Laura Turnstall**  - A critical discourse analysis of advertisements of beauty products (B.A. dissertation)
