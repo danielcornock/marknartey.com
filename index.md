@@ -1,5 +1,5 @@
 ---
-title: Mark Nartey (PHD,FHEA)
+title: Mark Nartey,PHD,FHEA
 subtitle: Applied Linguist | Discourse Analyst | Communications Strategist
 layout: index
 permalink: /
