@@ -12,6 +12,7 @@ permalink: /
 
 * Ph.D. in Discourse Studies, The Hong Kong Polytechnic University, Hong Kong
 * M.Phil. in Linguistics, Norwegian University of Science and Technology, Norway
+* PGCert in Learning and Teaching in Higher Education,University of the West of England, UK
 * B.A. in English Language and Linguistics (First Class Honors), University of Cape Coast, Ghana
 
 ## Research Overview
