@@ -34,10 +34,19 @@ I am experienced in curriculum planning as well as designing and delivering ling
 * ENG306: Aspects of the Grammar of English
 * ENG401A: Structure and Style
 
-## Dissertations supervised
+## Bachelor's and Master's Dissertations Supervised
 
-* A multimodal discourse analysis of Korean liquor advertisements (B.A. dissertation)
-* A discourse analysis of the language used in bereavement stories by young people  (B.A. dissertation)
-* The discursive representations of LGBTQ+ football fans on social media (B.A. dissertation)
-* An investigation into the relationship between confidence and language efficiency (B.A. dissertation)
-* A critical discourse analysis of the speeches of Malcolm X (B.A. dissertation)
+* Examining the language of ethical business practice: A comparative critical discourse analysis of Cadbury and Tony’s Chocolonely
+* Exploring language Strategies in *Ben and Holly’s Little Kingdom* and their role in supporting children’s language learning
+* Designer handbags and designer names: A linguistic examination of the baby names of celebrities
+* Chinese and Vietnamese EFL students’ vocabulary learning strategies: A comparative analysis
+* A sociolinguistic examination of the impact of dialect on the perception of class in the UK
+* A cross-cultural linguistic analysis of Vietnamese and English beer advertisements
+* An investigation into the relationship between confidence and language efficiency
+* A discourse analysis of the language used in bereavement stories by young people
+* The discursive representations of LGBTQ+ football fans on social media 
+* Gendered language in football: An examination of the UK’s sports media 
+* A critical examination of discourses surrounding the UK’s illegal raves
+* A multimodal discourse analysis of Korean liquor advertisements
+* A diachronic analysis of the language of romance in novels
+* A critical discourse analysis of the speeches of Malcolm X
