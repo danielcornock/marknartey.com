@@ -41,6 +41,7 @@ I am experienced in curriculum planning as well as designing and delivering ling
 * Designer handbags and designer names: A linguistic examination of the baby names of celebrities
 * Chinese and Vietnamese EFL students’ vocabulary learning strategies: A comparative analysis
 * A sociolinguistic examination of the impact of dialect on the perception of class in the UK
+* Gina Kaminski breaks the mold: Autism, agency and empowerment in two picture books 
 * A cross-cultural linguistic analysis of Vietnamese and English beer advertisements
 * An investigation into the relationship between confidence and language efficiency
 * A discourse analysis of the language used in bereavement stories by young people
