@@ -10,6 +10,12 @@ I strongly believe in multiperspectivity because when people see beyond their ow
 
 I am experienced in curriculum planning as well as designing and delivering linguistics, English language and communication studies courses across a range of academic levels. The following is a list of the modules I teach/have taught, categorized by institution:
 
+## Lingnan University, Hong Kong
+
+* E﻿NG3002: Research Methods in Language Studies
+* ENG3303: Professional Communication
+* E﻿NG3003: English and Creativity
+
 ## University of the West of England, United Kingdom
 
 * UPNQ9P-30-3: Critical Discourse Analysis
