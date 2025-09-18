@@ -38,6 +38,7 @@ I am experienced in curriculum planning as well as designing and delivering ling
 
 * Examining the language of ethical business practice: A comparative critical discourse analysis of Cadbury and Tony’s Chocolonely
 * Exploring language Strategies in *Ben and Holly’s Little Kingdom* and their role in supporting children’s language learning
+* T﻿he effect of multilingual variable naming in python on the comprehension of multilingual programmers
 * Designer handbags and designer names: A linguistic examination of the baby names of celebrities
 * Chinese and Vietnamese EFL students’ vocabulary learning strategies: A comparative analysis
 * A sociolinguistic examination of the impact of dialect on the perception of class in the UK
