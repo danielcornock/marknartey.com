@@ -23,15 +23,10 @@ My research has a critical orientation and an emancipatory objective. Hence, it 
 
 ## Research Interests
 
-* Corpus-Assisted Discourse Studies
 * Communication and Media Studies
-* L﻿anguage, Culture, and Society
+* (Critical) Discourse Studies 
+* L﻿anguage, Culture and Society
 * L﻿anguage and Social Justice
-* Language and Identities
-* Language and Diversity
-* L﻿anguage and Ethnicity
-* L﻿anguage and Gender
-* L﻿anguage and Race
 * Language and/in Politics
 
 ## Teaching Areas
